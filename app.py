@@ -70,5 +70,4 @@ if st.button("Check Vulnerability"):
         result = "🔴 Vulnerable" if binary_prediction[0][0] == 1 else "🟢 Not Vulnerable"
 
         st.write(f"### **Prediction: {result}**")
-        st.write(f"**Confidence Score:** {confidence_score:.4f}")  # ✅ No more error!
 

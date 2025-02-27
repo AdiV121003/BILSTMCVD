@@ -1,7 +1,7 @@
 # Core Dependencies
 streamlit
 keras
-tensorflow-gpu
+tensorflow
 
 # NLP & Tokenization
 pygments

@@ -1,5 +1,4 @@
 # Core Dependencies
-streamlit
 tensorflow
 keras
 

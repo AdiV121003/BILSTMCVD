@@ -1,15 +1,15 @@
 # Core Dependencies
-streamlit==1.30.0  # Latest stable Streamlit version
-tensorflow==2.15.0  # Use the TensorFlow version matching your Colab model
-keras==2.15.0  # Ensure Keras matches TensorFlow version
+streamlit
+tensorflow
+keras
 
 # NLP & Tokenization
-pygments==2.17.2  # For C code tokenization
+pygments
 
 # Data Handling
-numpy==1.26.3
-pandas==2.2.0
-scikit-learn==1.4.0  # For class weight calculations
+numpy
+pandas
+scikit-learn
 
 # Preprocessing & Padding
-pickle5==0.0.11  # For loading vocab.pkl (if using pickle)
+pickle5

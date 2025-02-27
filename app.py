@@ -10,7 +10,7 @@ from keras.preprocessing.sequence import pad_sequences
 # Load model and vocabulary
 @st.cache_resource
 def load_model():
-    return tf.keras.models.load_model("amy_model.h5", compile=False)
+    return tf.keras.models.load_model("my_model.h5", compile=False)
 
 @st.cache_data
 def load_vocab():

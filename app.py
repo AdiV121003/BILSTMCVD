@@ -60,7 +60,6 @@ if st.button("Check Vulnerability"):
         st.error("⚠️ Please enter a valid C function.")
     else:
         processed_input = preprocess(func_before)
-        st.write(f"Raw Model Output (confidence): {raw_prediction[0][0]:.4f}")
         print("Raw Prediction Output:", raw_prediction)
         binary_prediction = (raw_prediction > 0.5).astype("int32")  # Convert to 0 or 1
 
